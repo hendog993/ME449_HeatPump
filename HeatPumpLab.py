@@ -6,7 +6,7 @@ except ModeleNotFoundError:
 from tkinter import Tk, Button, Entry, Label, Text, ttk, StringVar
 
 # Make a Python GUI to input different modules
-# Lab 2 has no homework. All analysis is compelted in class.
+# Lab 2 has no homework. All analysis is completed in class.
 
 fluid = 'R134a'
 """
@@ -57,9 +57,15 @@ def submit_button(*args):
     answer = des + " = " + var1 + " " + units[des]
     results_text.delete(0.0, "end")
     results_text.insert(0.0, answer)
-
-
     pass
+
+
+def write_values():
+    count = 0
+    '''Writes all values and attempts to a csv file.'''
+    with open("results.txt","w") as master:
+        master.write()
+        master.close()
 
 
 # Constructor for the interface 

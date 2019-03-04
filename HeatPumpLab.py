@@ -28,11 +28,11 @@ helper = {
 
 units = {
     "Temperature": "K",
-    "Pressure": "kPa",
+    "Pressure": "Pa",
     "Quality": "%",
-    "Specific Heat": "kJ/kg*K",
-    "Entropy": "kJ/kg*K",
-    "Enthalpy": "kJ/kg",
+    "Specific Heat": "J/kg*K",
+    "Entropy": "J/kg*K",
+    "Enthalpy": "J/kg",
     "Density": "kg/m3",
 }
 
